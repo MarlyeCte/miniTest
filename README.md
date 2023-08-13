@@ -4,7 +4,7 @@
 
 ```bash
     # cloner le projet
-    gh repo clone MarlyeCte/Test_Digipart_PHP_Marlye
+    gh repo clone MarlyeCte/miniTest
 ```
 ##  Possibilité 2 : charger les données depuis le dump
 
