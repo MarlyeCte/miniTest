@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Signika Negative', sans-serif;
+    text-decoration: none;
+    color: rgb(44, 44, 44);
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.nav a {
+    padding: 12px 14px;
+    color: #f2f2f2;
+    font-size: 25px;
+    transition: 0.2s ease-in-out;
+}
+
+.nav a:hover {
+    color: black;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+}
+
+.Catalogue {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.articleExistant {
+    margin-bottom: 50px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 850px;
+}
+th, td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+td {
+    padding: 8px 10px;
+}
+
+th {
+    padding: 10px 20px;
+    background-color: #f2f2f2;
+}
+
+img {
+    width: 100px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+input,
+textarea,
+select {
+    width: 250px;
+    padding: 5px 0px 5px 10px;
+}
+
+.image-selection {
+    display: flex;
+    align-items: center;
+}
+
+.image-preview {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.actionHover {
+    font-size: 16px;
+    padding: 10px 20px;
+    color: green;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition:  0.2s ease-in-out;
+}
+
+.actionHover:hover {
+    background-color: green;
+    color: white;
+    font-size: 20px;
+}
+
+/* Styles spécifiques pour la page de détails d'article */
+
+.articleDetail {
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+}
+
+.detail-image {
+    text-align: center;
+}
+
+.detail-img {
+    width: 500px;
+    border: 1px solid #ddd;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.detail-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.detail-name {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.detail-price {
+    font-size: 20px;
+    color: #d63031;
+}
+
+.detail-description,
+.detail-color {
+    font-size: 16px;
+}
+
+.detail-color {
+    font-weight: bold;
+}
+
+.error-message {
+    background-color: #ffcccc;
+    border: 1px solid #ff6666;
+    color: #ff3333;
+    padding: 10px;
+    margin-bottom: 20px;
+}
