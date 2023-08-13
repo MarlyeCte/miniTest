@@ -1,5 +1,5 @@
 ### Merci de suivre ces étapes pour bien installer le projet
-    Deux possibilitées s'offre à vous : 
+## Deux possibilitées s'offre à vous : 
 ##  Possibilité 1 :
 
 ```bash
