@@ -1,4 +1,4 @@
-.contentAllDetail-Web {
+.contentAllDetail {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,6 +20,10 @@
     width: 400px;
 }
 
+.deta_textContent span {
+    color: rgb(26, 26, 26);
+}
+
 .deta_textContent {
     display: flex;
     flex-direction: column;
@@ -36,7 +40,7 @@
 .edit,
 .delete {
     font-size: 20px;
-    border: 1px solid black;
+    border: 1px solid rgb(26, 26, 26);
     padding: 8px 15px;
     border-radius: 10px;
     transition: 0.2s ease-in-out;
@@ -54,5 +58,24 @@
     color: #f6f6f6;
     background-color: red;
     border: 1px dotted darkred;
+}
+
+@media screen and (max-width: 1000px) {
+    .contentAllDetail {
+        flex-direction: column;
+    }
+
+    .deta_imgContent {
+        width: 70%;
+    }
+    
+    .deta_textContentBox {
+        width: 80%;
+    }
+
+    .deta_textContent {
+        font-size: 18px;
+    }
+    
 }
 

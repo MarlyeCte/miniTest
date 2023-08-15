@@ -30,18 +30,18 @@ if (isset($_GET["id"])) {
 
     <section class="globalPage">
         <h2>Détails de l'article :</h2> 
-        <article class="contentAllDetail-Web">
+        <article class="contentAllDetail">
             <div class="deta_imgContent">
                 <img src="<?php echo $article["view_img"]; ?>" alt="">
             </div>
             
             <div class="deta_textContentBox">
                 <div class="deta_textContent">
-                    <p>Id : <?php echo $article["id_article"]; ?></p>
-                    <p>Réference : <?php echo $article["name"]; ?></p>
-                    <p>Prix : <?php echo $article["price"]; ?>€ ( Euro )</p>
-                    <p>Description de l'article : <?php echo $article["description"]; ?></p>
-                    <p>Couleur : <?php echo $article["color"]; ?></p>
+                    <p>Id : <span><?php echo $article["id_article"]; ?></span></p>
+                    <p>Réference : <span><?php echo $article["name"]; ?></span></p>
+                    <p>Prix : <span><?php echo $article["price"]; ?>€</span> ( Euro )</p>
+                    <p>Couleur : <span><?php echo $article["color"]; ?></span></p><br>
+                    <p>Description de l'article : <br><br><span><?php echo $article["description"]; ?></span></p>
                 </div>
 
                 <div class="btnAction">
@@ -52,33 +52,6 @@ if (isset($_GET["id"])) {
         </article>
     </section>
 
-    <!-- <section class="globalPage">
-        <article class="Catalogue">
-            <?php
-            if (isset($errorMessage)) {
-                echo '<div class="error-message">' . $errorMessage . '</div>';
-            } else {
-            ?>
-                <article class="articleDetail">
-                    <h2>Détails de l'article :</h2>
-                    <div class="detail-image">
-                        <img src="<?php echo $article["view_img"]; ?>" alt="Image de l'article" class="detail-img">
-                    </div>
-                    <div class="detail-info">
-                        <h3 class="detail-name"><?php echo $article["name"]; ?> : <?php echo $article["color"]; ?></h3>
-                        <p class="detail-price">Prix : <?php echo $article["price"]; ?> €</p>
-                        <p class="detail-description">Description : <?php echo $article["description"]; ?></p>
-                        <div class="btnAction">
-                            <a href="edit_article.php?id=<?php echo $article["id_article"]; ?>" class="edit" onclick="return confirmUpdate()">Modifier</a>
-                            <a href="delete_article.php?id=<?php echo $article["id_article"]; ?>" class="delete" onclick="return confirmDelete()">Supprimer</a>
-                        </div>
-                    </div>
-                </article>
-            <?php
-            }
-            ?>
-        </article>
-    </section> -->
 </body>
 </html>
 

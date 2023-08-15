@@ -35,13 +35,14 @@ $existingProductsResult = mysqli_query($mtconn, $existingProductsQuery);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styleCSS/style.css">
+    <link rel="stylesheet" href="styleCSS/add.css">
     <title>Ajouter un article</title>
 </head>
 <body>
     <?php include('navbar.php'); ?>
 
     <section class="globalPage">
-        <article class="Catalogue">
+        <article class="CatalogueAdd">
             <article class="articleAdd">
                 <h2>Ajouter un nouvel article :</h2>
                 <form action="article_add.php" method="post">

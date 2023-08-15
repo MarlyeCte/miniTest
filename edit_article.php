@@ -42,6 +42,7 @@ $imageFiles = array_diff(scandir($imageDirectory), array('..', '.'));
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styleCSS/style.css">
+    <link rel="stylesheet" href="styleCSS/edit.css">
     <title>Modifier un article</title>
 </head>
 

@@ -1,0 +1,49 @@
+.CatalogueAdd {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.articleExistant {
+    margin-bottom: 50px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 850px;
+}
+
+th, td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+td {
+    padding: 8px 10px;
+}
+
+th {
+    padding: 10px 20px;
+    background-color: #a9ffb6;
+    color: rgb(26, 26, 26);
+}
+
+@media screen and (max-width: 1000px) {
+    
+    .articleExistant {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    table {
+        width: 80%;
+    }
+
+    th, td {
+        width: 250px;
+    }
+}
