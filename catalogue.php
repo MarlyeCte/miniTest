@@ -32,8 +32,8 @@
                 <a href="detail_article.php?id=<?php echo $article["id_article"]; ?>" class="cat_detail">- Voir l'article -</a>
             </article>
             <?php endwhile; ?>
-
         </article>
+        <a href="article_add.php" class="actionHover">Ajouter un nouvel article</a>
     </section>
 
     <!-- <section class="globalPage">

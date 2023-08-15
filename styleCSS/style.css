@@ -9,6 +9,12 @@
     color: rgb(44, 44, 44);
 }
 
+.globalPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .Catalogue {
     margin-top: 50px;
     display: flex;
