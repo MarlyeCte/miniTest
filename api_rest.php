@@ -20,7 +20,7 @@ if ($result) {
     header("Content-Type: application/json; charset=UTF-8");
 
     // Convertir le tableau en JSON et renvoyer la réponse
-    echo json_encode($articles);
+    echo json_encode($articles, JSON_PRETTY_PRINT);
 } else {
     // En cas d'erreur dans la requête
     echo "Erreur lors de la récupération des données.";

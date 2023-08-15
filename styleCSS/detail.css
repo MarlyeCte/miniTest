@@ -1,0 +1,58 @@
+.contentAllDetail-Web {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.deta_imgContent {
+    width: 500px;
+}
+
+.deta_imgContent img {
+    width: 100%;
+}
+
+.deta_textContentBox {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 400px;
+}
+
+.deta_textContent {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btnAction {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.edit,
+.delete {
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 8px 15px;
+    border-radius: 10px;
+    transition: 0.2s ease-in-out;
+}
+
+.edit:hover {
+    text-decoration: underline dotted;
+    color: #f6f6f6;
+    background-color: blue;
+    border: 1px dotted darkblue;
+}
+
+.delete:hover {
+    text-decoration: underline dotted;
+    color: #f6f6f6;
+    background-color: red;
+    border: 1px dotted darkred;
+}
+
