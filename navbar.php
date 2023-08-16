@@ -15,7 +15,7 @@
         </div>
         <div class="navLink">
             <a href="catalogue.php">Catalogue</a>
-            <a href="api_rest.php" target="_blank" onclick="return confirmGoPageApi()">Api Rest</a>
+            <a href="API REST/api_rest.php" target="_blank" onclick="return confirmGoPageApi()">Api Rest</a>
         </div>
     </nav>
 </header>

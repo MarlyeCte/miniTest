@@ -38,7 +38,8 @@
 }
 
 .edit,
-.delete {
+.delete,
+.api {
     font-size: 20px;
     border: 1px solid rgb(26, 26, 26);
     padding: 8px 15px;
@@ -58,6 +59,13 @@
     color: #f6f6f6;
     background-color: red;
     border: 1px dotted darkred;
+}
+
+.api:hover {
+    text-decoration: underline dotted;
+    color: #f6f6f6;
+    background-color: darkgray;
+    border: 1px dotted black;
 }
 
 @media screen and (max-width: 1000px) {

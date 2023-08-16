@@ -77,26 +77,28 @@ $existingProductsResult = mysqli_query($mtconn, $existingProductsQuery);
 
             <article class="articleExistant">
                 <h2>Articles existants :</h2>
-                <table>
-                    <tr>
-                        <th>Id_Article</th>
-                        <th>Nom</th>
-                        <th>Prix</th>
-                        <th>Description</th>
-                        <th>Images</th>
-                        <th>Couleur</th>
-                    </tr>
-                    <?php while ($existingArticle = mysqli_fetch_assoc($existingProductsResult)) : ?>
+                <div class="articleTable">
+                    <table>
                         <tr>
-                            <td><?php echo $existingArticle["id_article"]; ?></td>
-                            <td><?php echo $existingArticle["name"]; ?></td>
-                            <td><?php echo $existingArticle["price"]; ?></td>
-                            <td><?php echo $existingArticle["description"]; ?></td>
-                            <td><img src="<?php echo $existingArticle["view_img"]; ?>" alt=""></td>
-                            <td><?php echo $existingArticle["color"]; ?></td>
+                            <th>Id_Article</th>
+                            <th>Nom</th>
+                            <th>Prix</th>
+                            <th>Description</th>
+                            <th>Images</th>
+                            <th>Couleur</th>
                         </tr>
-                    <?php endwhile; ?>
-                </table>
+                        <?php while ($existingArticle = mysqli_fetch_assoc($existingProductsResult)) : ?>
+                            <tr>
+                                <td><?php echo $existingArticle["id_article"]; ?></td>
+                                <td><?php echo $existingArticle["name"]; ?></td>
+                                <td><?php echo $existingArticle["price"]; ?></td>
+                                <td><?php echo $existingArticle["description"]; ?></td>
+                                <td><img src="<?php echo $existingArticle["view_img"]; ?>" alt=""></td>
+                                <td><?php echo $existingArticle["color"]; ?></td>
+                            </tr>
+                        <?php endwhile; ?>
+                    </table>
+                </div>
             </article>
         </article>
     </section>

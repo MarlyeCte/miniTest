@@ -25,7 +25,7 @@
                 <img src="<?php echo $article["view_img"]; ?>" alt="" class="cat_imgContent">
 
                 <div class="cat_infoContent">
-                    <h3>Réference : <?php echo $article["name"]; ?></h3>
+                    <h3>Réference : <?php echo $article["name"]; ?> <?php echo $article["color"]; ?></h3>
                     <h3>Prix : <?php echo $article["price"]; ?>€ ( Euro )</h3>
                 </div>
 

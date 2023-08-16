@@ -11,9 +11,12 @@
     margin-bottom: 50px;
 }
 
+.articleTable {
+    width: 850px;
+}
+
 table {
     border-collapse: collapse;
-    width: 850px;
 }
 
 th, td {
@@ -21,14 +24,14 @@ th, td {
     text-align: center;
 }
 
-td {
-    padding: 8px 10px;
-}
-
 th {
     padding: 10px 20px;
     background-color: #a9ffb6;
     color: rgb(26, 26, 26);
+}
+
+td {
+    padding: 8px 10px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -38,12 +41,9 @@ th {
         flex-direction: column;
         align-items: center;
     }
-    
-    table {
-        width: 80%;
-    }
 
-    th, td {
-        width: 250px;
+    .articleTable {
+        width: 80%;
+        overflow: auto;
     }
 }

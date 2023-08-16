@@ -47,6 +47,7 @@ if (isset($_GET["id"])) {
                 <div class="btnAction">
                     <a href="edit_article.php?id=<?php echo $article["id_article"]; ?>" class="edit" onclick="return confirmUpdate()">Modifier</a>
                     <a href="delete_article.php?id=<?php echo $article["id_article"]; ?>" class="delete" onclick="return confirmDelete()">Supprimer</a>
+                    <a href="API REST/api_rest_article.php?id=<?php echo $article["id_article"]; ?>" class="api" onclick="return confirmGoPageApi()" target="_blank">Voir en tant qu'API</a>
                 </div>
             </div>
         </article>
@@ -62,5 +63,9 @@ if (isset($_GET["id"])) {
 
     function confirmUpdate() {
         return confirm("Voulez-vous vraiment mettre à jour cette article ?");
+    }
+
+    function confirmGoPageApi() {
+        return confirm("Vous allez être redirigé vers l'interface API de l'article <?php echo $article["name"]; ?> <?php echo $article["color"]; ?>.");
     }
 </script>
