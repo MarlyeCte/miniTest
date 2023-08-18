@@ -19,7 +19,7 @@ if (isset($_GET["id"])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styleCSS/style.css">
+    <link rel="stylesheet" href="styleCSS/globalStyle.css">
     <link rel="stylesheet" href="styleCSS/detail.css">
     <title>Détails de l'article : <?php echo $article["name"]; ?></title>
 </head>

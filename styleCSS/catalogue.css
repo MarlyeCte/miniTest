@@ -1,3 +1,23 @@
+.sreachArticle {
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    margin-bottom: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.sreachArticle input,
+.sreachArticle button {
+    border: 0;
+    border-radius: 5px;
+}
+
+.sreachArticle button {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
 .boxAllContent {
     display: flex;
     justify-content: center;
