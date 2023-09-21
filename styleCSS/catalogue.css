@@ -1,21 +1,47 @@
-.sreachArticle {
+.searchArticle {
     display: flex;
     flex-direction: row;
-    gap: 0;
+    align-items: center;
+    gap: 40px;
     margin-bottom: 40px;
+}
+
+.searchSubmit {
     border: 1px solid black;
     border-radius: 5px;
 }
 
-.sreachArticle input,
-.sreachArticle button {
+.searchSubmit input,
+.searchSubmit button {
     border: 0;
     border-radius: 5px;
 }
 
-.sreachArticle button {
+.searchSubmit button {
     padding: 8px 12px;
     cursor: pointer;
+    color: black;
+    background-color: #a9ffb6;
+    transition: 0.1s ease-in-out;
+}
+
+.searchSubmit button:hover {
+    color: white;
+    background-color: #75b07e;
+}
+
+.clickItem {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#itemSearch-color div{
+    width: 10px;
+    height: 10px;
+    color: green;
 }
 
 .boxAllContent {
@@ -60,4 +86,12 @@
 
 .cat_detail:hover {
     text-decoration: underline dotted
+}
+
+@media screen and (max-width: 768px) {
+
+    .searchArticle {
+        flex-direction: column;
+    }
+    
 }

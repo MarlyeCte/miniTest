@@ -4,7 +4,7 @@
 
     // echo "Connection réussie";
 
-    // mysqli_query($mtconn,"INSERT INTO `mt_articles`(`description`, `view_img`, `color`) VALUES ('Le Sweat à capuche de PogoMode convient à toute les tailles avec plusieurs couleurs disponibles', 'Sweat_PogoMode/Sweat_Bleu.png', 'Bleu')");
+    // mysqli_query($mtconn,"INSERT INTO `mt_articles`(`description`, `view_img`, `color`) VALUES ('Le Sweat à capuche de PogoMode convient à toute les tailles avec plusieurs couleurs disponibles', 'Catalogue_PogoMode/Sweat_Bleu.png', 'Bleu')");
 
     $result = mysqli_query($mtconn, "SELECT * FROM mt_articles");
 

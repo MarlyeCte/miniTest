@@ -3,7 +3,7 @@
 <?php
 
 // Récupérer les données existantes pour les options du formulaire
-$imageDirectory = 'Sweat_PogoMode/';
+$imageDirectory = 'Catalogue_PogoMode/';
 $imageFiles = array_diff(scandir($imageDirectory), array('..', '.'));
 
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["create"])) {

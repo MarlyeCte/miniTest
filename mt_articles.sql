@@ -43,10 +43,10 @@ CREATE TABLE IF NOT EXISTS `mt_articles` (
 --
 
 INSERT INTO `mt_articles` (`id_article`, `name`, `price`, `description`, `view_img`, `color`) VALUES
-(1, 'Sweat à capuche', 80, 'Le Sweat à capuche de PogoMode convient à toute les tailles avec plusieurs couleurs disponibles', 'Sweat_PogoMode/Sweat_Bleu.png', 'Bleu'),
-(2, 'Sweat à  capuche', 80, 'Le Sweat à capuche de PogoMode convient à toute les tailles avec plusieurs couleurs disponibles', 'Sweat_PogoMode/Sweat_Jaune.png', 'Jaune'),
-(3, 'Sweat à  capuche', 80, 'Le Sweat à capuche de PogoMode convient à toute les tailles avec plusieurs couleurs disponibles', 'Sweat_PogoMode/Sweat_Orange.png', 'Orange'),
-(4, 'Sweat à  capuche', 80, 'Le Sweat à capuche de PogoMode convient à toute les tailles avec plusieurs couleurs disponibles', 'Sweat_PogoMode/Sweat_Vert.png', 'Vert');
+(1, 'Sweat à capuche', 80, 'Le Sweat à capuche de PogoMode convient à toute les tailles avec plusieurs couleurs disponibles', 'Catalogue_PogoMode/Sweat_Bleu.png', 'Bleu'),
+(2, 'Sweat à  capuche', 80, 'Le Sweat à capuche de PogoMode convient à toute les tailles avec plusieurs couleurs disponibles', 'Catalogue_PogoMode/Sweat_Jaune.png', 'Jaune'),
+(3, 'Sweat à  capuche', 80, 'Le Sweat à capuche de PogoMode convient à toute les tailles avec plusieurs couleurs disponibles', 'Catalogue_PogoMode/Sweat_Orange.png', 'Orange'),
+(4, 'Sweat à  capuche', 80, 'Le Sweat à capuche de PogoMode convient à toute les tailles avec plusieurs couleurs disponibles', 'Catalogue_PogoMode/Sweat_Vert.png', 'Vert');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

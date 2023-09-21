@@ -31,7 +31,7 @@ if (isset($_GET["id"])) {
     exit();
 }
 
-$imageDirectory = 'Sweat_PogoMode/';
+$imageDirectory = 'Catalogue_PogoMode/';
 $imageFiles = array_diff(scandir($imageDirectory), array('..', '.'));
 
 ?>
