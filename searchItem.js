@@ -8,7 +8,7 @@ $(document).ready(function() {
             const articleColor = $(this).data("color").toLowerCase();
             
             const articleNameMatch = selectedItem === 'all' || articleName.includes(selectedItem.toLowerCase());
-            const articleColorMatch = selectedItemColor === 'all' || articleColor === selectedItemColor.toLowerCase();
+            const articleColorMatch = selectedItemColor === 'all' || articleColor.includes (selectedItemColor.toLowerCase());
             
             if (articleNameMatch && articleColorMatch) {
                 $(this).css("display", "flex");
